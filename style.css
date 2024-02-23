@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Bree Serif', serif;
+}
+.allsubject{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.header1 {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    flex-wrap: row wrap;
+    justify-content: space-evenly;
+    background-color: rgb(112, 101, 123);
+    align-items: center;
+    position: relative;
+    /* border: 1px solid; */
+
+}
+
+.Logo .mylogo {
+
+    width: 7%;
+    height: 7%;
+    border-radius: 100%;
+    margin-top: 1px;
+    transition:.44s;
+}
+.Logo .mylogo:hover {
+    width: 15%;
+
+    
+}
+
+
+ul {
+    display: flex;
+    margin: 0px;
+
+}
+
+ul .itam {
+
+    list-style: none;
+    margin: 13px 20px;
+    font-weight: 600;
+    transition: .40s;
+    cursor: pointer
+}
+
+.itam:hover {
+    background-color: rgb(103, 102, 102);
+    color: rgb(215, 213, 211);
+    border-radius: 20px;
+    padding: 12px;
+
+}
+
+/* .coffee {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    z-index: -1;
+} */
+/* border-width: ; */
+.header2{
+    background: url(coffee-beans.jpg) no-repeat center center/cover;
+    display: flex;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.9; */
+}
+
+.text {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 20%;
+}
+
+h1 {
+    font-size: 500%;
+    color: white;
+}
+
+p {
+    display: flex;
+    /* border: 1px solid; */
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    color: white;
+    text-align: center;
+    /* margin-top: 20px; */
+    /* padding: 20px 100%; */
+}
+
+.header3 {
+    width: 100%;
+    height: 50%;
+    /* display: flex; */
+    margin-top: 0%;
+    /* background-color: rgb(247, 247, 247); */
+    /* border: 1px solid; */
+    /* justify-content: space-around; */
+    /* flex-direction: column; */
+}
+
+.itam1 {
+    justify-content: space-around;
+    display: flex;
+    /* height: 100; */
+    width: 100%;
+
+    flex-flow: row wrap;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* position: ; */
+    /* z-index: -1; */
+    /* border: 1px solid; */
+    /* background-color: rgb(255, 10, 10); */
+
+
+}
+
+#same {
+    /* display: flex; */
+    width: 20%;
+    height: 30%;
+    margin: 10px 0px;
+
+    flex-direction: column;
+    border: 1px solid rebeccapurple;
+    background-color: rgb(248, 226, 222);
+    padding: 10px 70px;
+    border-radius: 30px;
+    /* flex-flow:row wrap; */
+
+
+}
+
+.chicken {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    /* margin: 10px 50px; */
+}
+
+.food-delivery {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    /* margin: 10px 50px; */
+}
+
+.market {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    /* margin: 10px 50px; */
+}
+
+.p {
+    width:100% ;
+    height: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* display: block; */
+    margin: 10px 0px;
+    /* border: 1px solid; */
+    padding:0px 40px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.637);
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.552);
+transition: .44s;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+    cursor: pointer
+
+}
+
+.button:hover {
+    color: rgb(255, 255, 255);
+
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    padding:20px ;
+    border-radius: 30px;
+    font-weight: 600;
+
+}
+
+i {
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+i:hover{
+    color: rgb(255, 0, 0);
+    font-size: 200px;
+}
+
+
+.inphoto {
+    /* display: flex; */
+    margin: 3px 20px;
+    width: 5%;
+}
+
+h2 {
+    justify-content: center;
+    display: flex;
+}
+
+#ins {
+    border-radius: 40px;
+}
+
+.header4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    opacity: 0.89;
+
+    /* margin-top: px; */
+    background: url(background.jpg)no-repeat center center/cover;
+}
+
+.photo {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header5{
+    margin: 20px;
+    width: 100%;
+height: 100%;
+    background: url(email-itam.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0.9;
+
+}
+#input{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+    margin: 1%;
+    padding: 0px 5%;
+    font-weight: 600;
+
+}
+.allinput{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(73, 73, 174, 0.409);
+    border-radius: 10%;
+    
+}
+.a{
+    margin: 2px;
+}
+#email{
+    background-color: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: 'Bree Serif', serif;
+
+    padding: 1px 20px;
+}
+#name{
+    background-color: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: 'Bree Serif', serif;
+
+    padding: 1px 20px;
+
+}
+#password{
+    background-color: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: 'Bree Serif', serif;
+
+    padding: 1px 20px;
+
+}
+#number{
+    background-color: none;
+    border: 1px solid black;
+    padding: 1px 20px;
+    font-family: 'Bree Serif', serif;
+
+    border-radius: 20px;
+}
+#btn{
+    margin-top: 3%;
+    background-color: rgba(73, 73, 174, 0.718);
+
+    border: none;
+    border-radius: 20px;
+    padding: 0px 20px;
+    padding: 1% 18%;
+    font-weight: 600;
+    font-family: 'Bree Serif', serif;
+    cursor: pointer
+
+
+}
+#btn:hover{
+    background-color: rgba(73, 73, 174, 0.989);
+
+
+}
